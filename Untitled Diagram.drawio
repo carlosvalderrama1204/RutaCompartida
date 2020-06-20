@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-06-19T22:04:05.084Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 Edg/83.0.478.45" etag="wyNM5G1AOYgU7eLtSc_k" version="13.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-06-20T01:05:04.673Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 Edg/83.0.478.45" etag="RWvtsTzwubk35HetW78m" version="13.3.0" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="539" dy="308" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1117" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,16 +8,28 @@
           <mxGeometry x="164.5" y="128" width="280" height="570" as="geometry" />
         </mxCell>
         <mxCell id="3" value="04.Cross-Cutting" style="swimlane;whiteSpace=wrap;startSize=23;" parent="1" vertex="1">
-          <mxGeometry x="444.5" y="128" width="405.5" height="570" as="geometry" />
+          <mxGeometry x="444.5" y="128" width="405.5" height="902" as="geometry" />
         </mxCell>
         <mxCell id="z6HRuHsra1VzPBBbZyOo-41" value="TransarUtil" style="shape=umlFrame;whiteSpace=wrap;html=1;width=80;height=30;" vertex="1" parent="3">
-          <mxGeometry x="35.5" y="102" width="334.5" height="168" as="geometry" />
+          <mxGeometry x="35.5" y="102" width="334.5" height="318" as="geometry" />
         </mxCell>
         <mxCell id="z6HRuHsra1VzPBBbZyOo-42" value="CUtil.vb" style="shape=umlFrame;whiteSpace=wrap;html=1;width=65;height=15;" vertex="1" parent="3">
-          <mxGeometry x="44.25" y="147" width="295.75" height="103" as="geometry" />
+          <mxGeometry x="44.25" y="147" width="295.75" height="213" as="geometry" />
         </mxCell>
         <mxCell id="z6HRuHsra1VzPBBbZyOo-43" value="DescgargarCertificacionPorticoCajaFTP" style="html=1;" vertex="1" parent="3">
-          <mxGeometry x="63" y="180" width="247" height="40" as="geometry" />
+          <mxGeometry x="68.61999999999999" y="186" width="247" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z6HRuHsra1VzPBBbZyOo-45" value="FTPLib" style="shape=umlFrame;whiteSpace=wrap;html=1;width=80;height=30;" vertex="1" parent="3">
+          <mxGeometry x="35.5" y="472" width="334.5" height="208" as="geometry" />
+        </mxCell>
+        <mxCell id="z6HRuHsra1VzPBBbZyOo-46" value="Main.cs" style="shape=umlFrame;whiteSpace=wrap;html=1;width=65;height=15;" vertex="1" parent="3">
+          <mxGeometry x="44.24999999999999" y="524.5" width="295.75" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="z6HRuHsra1VzPBBbZyOo-47" value="FtpConnect" style="html=1;" vertex="1" parent="3">
+          <mxGeometry x="126.42999999999999" y="556" width="131.37" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z6HRuHsra1VzPBBbZyOo-49" value="transferirArchivoFTP" style="html=1;" vertex="1" parent="3">
+          <mxGeometry x="68.63" y="271" width="247" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
